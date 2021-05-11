@@ -1,0 +1,1 @@
+This is a code example the tutorial can be found [here](https://medium.com/swlh/intro-to-aws-codecommit-codepipeline-and-codebuild-with-terraform-179f4310fe07)
