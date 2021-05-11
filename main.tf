@@ -28,8 +28,8 @@ provider "aws" {
 ## Build an S3 bucket and DynamoDB for Terraform state and locking
 module "bootstrap" {
   source                              = "./modules/bootstrap"
-  s3_tfstate_bucket                   = "kyler-codebuild-demo-terraform-tfstate"
-  s3_logging_bucket_name              = "kyler-codebuild-demo-logging-bucket"
+  s3_tfstate_bucket                   = "dcandu-codebuild-demo-terraform-tfstate"
+  s3_logging_bucket_name              = "dcandu-codebuild-demo-logging-bucket"
   dynamo_db_table_name                = "codebuild-dynamodb-terraform-locking"
   codebuild_iam_role_name             = "CodeBuildIamRole"
   codebuild_iam_role_policy_name      = "CodeBuildIamRolePolicy"
